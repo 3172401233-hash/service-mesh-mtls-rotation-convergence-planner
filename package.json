@@ -1,0 +1,11 @@
+{
+  "name": "service-mesh-mtls-rotation-convergence-planner",
+  "version": "1.0.0",
+  "description": "规划服务网格 mTLS 根证书/中间 CA 轮换的收敛顺序：分发、双信任、签发切换与旧根退役",
+  "main": "src/planner.js",
+  "scripts": {
+    "test": "node --test",
+    "plan": "node cli.js"
+  },
+  "license": "MIT"
+}
